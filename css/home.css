@@ -1,0 +1,12 @@
+body{
+	color: #53758E;
+}
+
+.newsletterDropDownMenu{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	background-color: #024a72;
+	text-align: center;
+	color: #EEE;
+}

@@ -1,0 +1,54 @@
+<div class="container">
+	<div class="row">
+		<div class="col-sm-4">
+			<h3> Newsletters Views </h3>
+			<select style="width: 80%" class="newsletterDropDownMenu" ng-model="selectedAddress" ng-options="data as data.Title for data in newsletters" ng-change="newsletterOnChange()">
+			</select>
+			<div style="padding-top:1em;">Date Published : <strong>{{ selectedAddress.Date | dateFilter}}</strong></div>
+			<div legend-directive d_onshore="{{ selectedAddress.Onshore }}" d_offshore="{{ selectedAddress.Offshore }}"  ids_1="color_1" ids_2="color_2"></div>	
+			<div>
+				<canvas id="pie1"></canvas>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<h3> Dashboard Views </h3>
+			<div style="padding-top:4em;" legend-directive d_onshore="{{ dashboard.Onshore }}" d_offshore="{{ dashboard.Offshore }}"  ids_1="color_3" ids_2="color_4"></div>
+			<div>	
+				<canvas id="pie2"></canvas>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<h3> Users Logged in </h3>
+			<div style="padding-top:2em;">Total Users : <strong>{{ userlogin.Total }}</strong></div>
+			<div legend-directive d_onshore="{{ userlogin.Onshore }}" d_offshore="{{ userlogin.Offshore }}"  ids_1="color_5" ids_2="color_6"></div>
+			<div>	
+				<canvas id="pie3"></canvas>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4">
+			<h3> Article Views </h3>
+			<select style="width: 80%" class="newsletterDropDownMenu" ng-model="selectedArticle" ng-options="data as data.Title for data in articles" ng-change="articleOnChange()">
+			</select>
+			<div legend-directive d_onshore="{{ selectedArticle.Views.Onshore }}" d_offshore="{{ selectedArticle.Views.Offshore }}"  ids_1="color_7" ids_2="color_8"></div>	
+			<div>
+				<canvas id="pie4"></canvas>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<h3> Article Likes </h3>
+			<div style="padding-top:2em;" legend-directive d_onshore="{{ selectedArticle.Likes.Onshore }}" d_offshore="{{ selectedArticle.Likes.Offshore }}"  ids_1="color_9" ids_2="color_10"></div>	
+			<div>
+				<canvas id="pie5"></canvas>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<h3> Article Comments </h3>
+			<div style="padding-top:2em;" legend-directive d_onshore="{{ selectedArticle.Comments.Onshore }}" d_offshore="{{ selectedArticle.Comments.Offshore }}"  ids_1="color_11" ids_2="color_12"></div>	
+			<div>
+				<canvas id="pie6"></canvas>
+			</div>
+		</div>
+	</div>
+</div>

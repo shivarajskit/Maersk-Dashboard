@@ -1,0 +1,47 @@
+[
+    {
+        "Title": "sample Article 1",
+        "Views": {
+            "Onshore": 20,
+            "Offshore": 34
+        },
+        "Likes": {
+            "Onshore": 40,
+            "Offshore": 56
+        },
+        "Comments": {
+            "Onshore": 38,
+            "Offshore": 72
+        }
+    },
+    {
+        "Title": "sample Article 2",
+        "Views": {
+            "Onshore": 43,
+            "Offshore": 63
+        },
+        "Likes": {
+            "Onshore": 121,
+            "Offshore": 96
+        },
+        "Comments": {
+            "Onshore": 22,
+            "Offshore": 45
+        }
+    },
+    {
+        "Title": "sample Article 3",
+        "Views": {
+            "Onshore": 45,
+            "Offshore": 33
+        },
+        "Likes": {
+            "Onshore": 151,
+            "Offshore": 66
+        },
+        "Comments": {
+            "Onshore": 75,
+            "Offshore": 95
+        }
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "Onshore": 32,
+        "Offshore": 20,
+        "Title": "sample newsletter 1",
+        "Date": "2014-11-05T05:46:02.1864977+00:00"
+    },
+    {
+        "Onshore": 28,
+        "Offshore": 56,
+        "Title": "sample newsletter 2",
+        "Date": "2014-10-09T05:46:02.1864977+00:00"
+    },
+    {
+        "Onshore": 48,
+        "Offshore": 76,
+        "Title": "sample newsletter 3",
+        "Date": "2014-03-29T05:46:02.1864977+00:00"
+    },
+    {
+        "Onshore": 68,
+        "Offshore": 16,
+        "Title": "sample newsletter 4",
+        "Date": "2013-12-19T05:46:02.1864977+00:00"
+    }
+]
